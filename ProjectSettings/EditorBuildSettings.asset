@@ -44,4 +44,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Haotian Guo/ORSAssets/CS_Assets/CS_Scenes/AlienBlaster.unity
     guid: c60b1e3f09218b04aa229a4d0d2ff716
+  - enabled: 1
+    path: Assets/Yekun Liu/Scenes/MainScene.unity
+    guid: c47262692e35f7742a5c996c20f41852
+  - enabled: 1
+    path: Assets/Yekun Liu/Scenes/GameScene.unity
+    guid: 6e5ff6f855812db49a10d3adf009bc48
+  - enabled: 1
+    path: Assets/Yekun Liu/Scenes/HelpScene.unity
+    guid: fbc9bc78d908a30439fc10017bbdb7a2
   m_configObjects: {}

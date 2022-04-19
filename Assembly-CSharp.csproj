@@ -256,6 +256,9 @@
     <Compile Include="Assets\TeamMenu\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TeamMenu\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TeamMenu\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Assets\Yekun Liu\script\CameraControlOne.cs" />
+    <Compile Include="Assets\Yekun Liu\script\NavScripts.cs" />
+    <Compile Include="Assets\Yekun Liu\script\objMove.cs" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
@@ -266,6 +269,8 @@
     <None Include="Assets\TeamMenu\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Bohan Du\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\Yekun Liu\Kiki\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Yekun Liu\Kiki\Shaders\ToonLit.shader" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\TeamMenu\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
