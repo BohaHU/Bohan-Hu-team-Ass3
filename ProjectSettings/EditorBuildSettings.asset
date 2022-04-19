@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FirstScenes.unity
+    path: Assets/TeamMenu/Scenes/FirstScenes.unity
     guid: 963766f1c341ac64f985d0e2c01462e5
   - enabled: 1
     path: Assets/Shifeng Feng/0.unity
