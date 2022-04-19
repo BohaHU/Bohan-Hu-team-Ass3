@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 11400002}
+  - component: {fileID: 11400004}
+  - component: {fileID: 11400008}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18835784c541904ab6917fb7f6c9b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Skin: {fileID: 11400000, guid: b78fe2eb673e3fe40ab711584bb4bf8c, type: 2}
+  IconZombie: {fileID: 2800000, guid: fc179c6274acd4942bc6b9187a073d47, type: 3}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73594aef99300a742a0a2c7531f0489d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items:
+  - Icon: {fileID: 2800000, guid: acb9dbaecb8d08148bece63dd0a8a161, type: 3}
+    Name: Golden Axe
+    Description: Great Damage Slow attack speed
+    Price: 10
+    ItemType: 0
+    ItemPrefab: {fileID: 100004, guid: 40c41c835c11dde41856f22eab9f81e0, type: 3}
+    ItemPrefabDrop: {fileID: 100000, guid: e5e8322800daede4b8b7ba2cf8ea11db, type: 3}
+  - Icon: {fileID: 2800000, guid: b15cd1e97a18c8142853edb0f774744c, type: 3}
+    Name: Board Sword
+    Description: Normal Damage Very fast attack speed
+    Price: 10
+    ItemType: 0
+    ItemPrefab: {fileID: 100002, guid: 9c451b823d0c55744afdea6eea713160, type: 3}
+    ItemPrefabDrop: {fileID: 100000, guid: e5e8322800daede4b8b7ba2cf8ea11db, type: 3}
+  - Icon: {fileID: 2800000, guid: 5702a9a0e22dd9549af47ce7c451fbdc, type: 3}
+    Name: Shield
+    Description: Just a basic shield
+    Price: 10
+    ItemType: 0
+    ItemPrefab: {fileID: 100000, guid: 1783490a9b206de4193e9ba8d82d1b31, type: 3}
+    ItemPrefabDrop: {fileID: 100000, guid: 6fa322bdda1d2b64e96f791dde215069, type: 3}
+  - Icon: {fileID: 2800000, guid: b15cd1e97a18c8142853edb0f774744c, type: 3}
+    Name: Fire Sword
+    Description: Burning Sword
+    Price: 50
+    ItemType: 0
+    ItemPrefab: {fileID: 100004, guid: 346e6ffa8aa0ee64ba4336a51c52df59, type: 3}
+    ItemPrefabDrop: {fileID: 100002, guid: 5090daf2bc06eac4d8fc99e9b108ce61, type: 3}
+  - Icon: {fileID: 2800000, guid: a48a9b720b92f4d4ea298a3f9cbdf478, type: 3}
+    Name: Red Potion
+    Description: Heal +20 HP
+    Price: 3
+    ItemType: 1
+    ItemPrefab: {fileID: 100000, guid: b6796bb8f86dd384d97f8ef996e87742, type: 3}
+    ItemPrefabDrop: {fileID: 100002, guid: ad6cae32af40b9f49b34d4aa95c2c9d2, type: 3}
+  - Icon: {fileID: 2800000, guid: 0961a5e99e13c344586b358951ec9c9d, type: 3}
+    Name: Fire Thrower
+    Description: Just a touchlight
+    Price: 10
+    ItemType: 0
+    ItemPrefab: {fileID: 100000, guid: 65bdecfb43b247d44a4ef1df755b3341, type: 3}
+    ItemPrefabDrop: {fileID: 100002, guid: 5b54781d086ca0c45936830bb8bf1e91, type: 3}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2440744ea9d6549886f4fca92a8fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Skills:
+  - SkillIcon: {fileID: 2800000, guid: 0961a5e99e13c344586b358951ec9c9d, type: 3}
+    SkillName: Shock Wave
+    Descrtiption: Explosion around the path
+    Level: 1
+    LevelMax: 5
+    ManaCost: 05000000
+    SkillObject:
+    - {fileID: 100000, guid: 1f4b26e1273e61141953b63f35ac0b12, type: 3}
+  - SkillIcon: {fileID: 2800000, guid: 1eab264a89085134aa3a34308b8ebbaa, type: 3}
+    SkillName: Spirit Away
+    Descrtiption: Launch a Spirit missile to targets
+    Level: 1
+    LevelMax: 5
+    ManaCost: 02000000
+    SkillObject:
+    - {fileID: 100000, guid: 72f52a1c6e58736458a5cdc2a65b616a, type: 3}
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9cb25c36fce48c48b6ce7582649267b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BG: {fileID: 2800000, guid: 56e81ed41a713844ca549a2633a88254, type: 3}
+  Alpha: 0
+  Delay: 0.5

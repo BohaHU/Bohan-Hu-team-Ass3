@@ -4,5 +4,29 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/FirstScenes.unity
+    guid: 963766f1c341ac64f985d0e2c01462e5
+  - enabled: 1
+    path: Assets/Shifeng Feng/0.unity
+    guid: 21520073898666142b08ef6c66849aa6
+  - enabled: 1
+    path: Assets/Shifeng Feng/1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Shifeng Feng/Help.unity
+    guid: 3c9f68633ce1e4ff2bf1cfc744252a18
+  - enabled: 1
+    path: Assets/Bohan Hu/DB/Mainmenu.unity
+    guid: 9997836348bde1e46b867d196bcafe27
+  - enabled: 1
+    path: Assets/Bohan Hu/DB/Level1.unity
+    guid: d7163bd0247881d4d82cad1f1b0bd65b
+  - enabled: 1
+    path: Assets/Bohan Hu/DB/Level2.unity
+    guid: 758e1e4acef448e46bf4ca422eac64de
+  - enabled: 1
+    path: Assets/Bohan Hu/DB/Setting.unity
+    guid: ba163a3d051e31244ba4f57402d2c9f4
   m_configObjects: {}
