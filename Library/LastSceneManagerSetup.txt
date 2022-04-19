@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Haotian Guo/CS_Assets/CS_Scenes/StartMenu.unity
+- path: Assets/TeamMenu/Scenes/FirstScenes.unity
   isLoaded: 1
   isActive: 1
