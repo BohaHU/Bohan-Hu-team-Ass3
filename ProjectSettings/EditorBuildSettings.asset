@@ -39,12 +39,9 @@ EditorBuildSettings:
     path: Assets/Bohan Du/YouWin.unity
     guid: a8831dd44d0c91446bad5be0fb03cab5
   - enabled: 1
-    path: Assets/Haotian Guo/CS_Assets/CS_Scenes/StartMenu.unity
+    path: Assets/Haotian Guo/ORSAssets/CS_Assets/CS_Scenes/StartMenu.unity
     guid: 166da7b5fca5c6f48b598b1553527eae
   - enabled: 1
-    path: Assets/Haotian Guo/CS_Assets/CS_Scenes/AlienBlaster.unity
+    path: Assets/Haotian Guo/ORSAssets/CS_Assets/CS_Scenes/AlienBlaster.unity
     guid: c60b1e3f09218b04aa229a4d0d2ff716
-  - enabled: 1
-    path: Assets/Haotian Guo/CS_Assets/CS_Scenes/AlienBlaster2Players.unity
-    guid: cd03347bde8fbaa4b9db3b58fabced45
   m_configObjects: {}
