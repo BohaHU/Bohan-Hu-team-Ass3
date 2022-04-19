@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000013197078522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000011271967736}
+  - component: {fileID: 114000013442520964}
+  m_Layer: 0
+  m_Name: ThumperWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011271967736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013197078522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013442520964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013197078522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff731cae4e2e3a468152d959a43a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 114000013818081554, guid: ed50b887371bbf2429a2d1f38b9ffb65,
+    type: 3}
+  hitRange: 40
+  damage: 1
+  recoil: {x: 2, y: 10}
+  ammo: 8
+  autoFire: 0
+  fireRate: 1.2
+  pelletsPerShot: 1
+  shotSpread: 0
+  ammoIcon: {fileID: 21300000, guid: bf9eb1a55921e4645b91c61e2605ea81, type: 3}
+  ammoShootAnimation: {fileID: 7400000, guid: 9221e307b4152524393fa9797e900bde, type: 2}
+  ammoReloadAnimation: {fileID: 7400000, guid: 38fdb3746b603cd459114dad62990734, type: 2}
+  soundShoot: {fileID: 8300000, guid: 5c9ead6b84b59f44398258e907c518db, type: 3}
+  soundEmpty: {fileID: 8300000, guid: 9913597ebed9e3b48bae1da247a0ca8d, type: 3}
+  soundReload: {fileID: 8300000, guid: 78586a174907e5e489fefe71d9811f22, type: 3}
+  crosshair: {fileID: 21300000, guid: 18d1b1c3085b8ac4ab44d121a4f6dde7, type: 3}

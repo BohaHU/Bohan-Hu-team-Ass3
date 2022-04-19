@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 35c6a23914b8ad54fbbc8fce1ffaedc1
+timeCreated: 1476290701
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ArmLeft001
+    100002: ArmLeft002
+    100004: ArmRight001
+    100006: ArmRight002
+    100008: //RootNode
+    100010: AstroSoldier
+    100012: Blaster
+    100014: FootLeft001
+    100016: FootLeft002
+    100018: FootLeft003
+    100020: FootRight001
+    100022: FootRight002
+    100024: FootRight003
+    100026: HandLeft001
+    100028: HandLeft002
+    100030: HandLeft003
+    100032: HandRight001
+    100034: HandRight002
+    100036: HandRight003
+    100038: Head
+    100040: Head002
+    100042: LegLeft001
+    100044: LegLeft002
+    100046: LegRight001
+    100048: LegRight002
+    100050: Neck001
+    100052: ThumbLeft001
+    100054: ThumbLeft002
+    100056: ThumbLeft003
+    100058: ThumbRight001
+    100060: ThumbRight002
+    100062: ThumbRight003
+    100064: Torso001
+    100066: Torso001 1
+    100068: Torso002
+    400000: ArmLeft001
+    400002: ArmLeft002
+    400004: ArmRight001
+    400006: ArmRight002
+    400008: //RootNode
+    400010: AstroSoldier
+    400012: Blaster
+    400014: FootLeft001
+    400016: FootLeft002
+    400018: FootLeft003
+    400020: FootRight001
+    400022: FootRight002
+    400024: FootRight003
+    400026: HandLeft001
+    400028: HandLeft002
+    400030: HandLeft003
+    400032: HandRight001
+    400034: HandRight002
+    400036: HandRight003
+    400038: Head
+    400040: Head002
+    400042: LegLeft001
+    400044: LegLeft002
+    400046: LegRight001
+    400048: LegRight002
+    400050: Neck001
+    400052: ThumbLeft001
+    400054: ThumbLeft002
+    400056: ThumbLeft003
+    400058: ThumbRight001
+    400060: ThumbRight002
+    400062: ThumbRight003
+    400064: Torso001
+    400066: Torso001 1
+    400068: Torso002
+    2300000: Blaster
+    3300000: Blaster
+    4300000: AstroSoldier
+    4300002: Blaster
+    9500000: //RootNode
+    13700000: AstroSoldier
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

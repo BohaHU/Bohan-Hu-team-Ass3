@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000013197078522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000011271967736}
+  - component: {fileID: 114000013442520964}
+  m_Layer: 0
+  m_Name: StingerWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011271967736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013197078522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000013442520964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013197078522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ff731cae4e2e3a468152d959a43a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectile: {fileID: 114000013818081554, guid: 73b7ed88d1967b349a8562daac41e5cb,
+    type: 3}
+  hitRange: 50
+  damage: 2
+  recoil: {x: 3, y: 12}
+  ammo: 60
+  autoFire: 1
+  fireRate: 0.1
+  pelletsPerShot: 1
+  shotSpread: 0.05
+  ammoIcon: {fileID: 21300000, guid: 9fbf60225981632438909c47bd3efd5b, type: 3}
+  ammoShootAnimation: {fileID: 7400000, guid: 9221e307b4152524393fa9797e900bde, type: 2}
+  ammoReloadAnimation: {fileID: 7400000, guid: 38fdb3746b603cd459114dad62990734, type: 2}
+  soundShoot: {fileID: 8300000, guid: b5aa633d0e6e9224b9ef94d2e3c882ed, type: 3}
+  soundEmpty: {fileID: 8300000, guid: 9913597ebed9e3b48bae1da247a0ca8d, type: 3}
+  soundReload: {fileID: 8300000, guid: 78586a174907e5e489fefe71d9811f22, type: 3}
+  crosshair: {fileID: 21300000, guid: 3b912ef2eb7f59e40839eb3ecd029dcf, type: 3}
